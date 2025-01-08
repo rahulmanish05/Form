@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="footballform.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>Soccer Team Selection</h1>
+        </div>
+        <nav>
+            <ul type="none">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Registration Form">Registration Form</a></li>
+                <li><a href="#About As">About us</a></li>
+                <li><a href="#Terms">Terms</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Registration Form">
+            <h1 class="Form">Registration Form</h1>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" placeholder="Enter Your Name" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date of Birth</label></td>
+                        <td><input type="date" id="dob" name="dob" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Home Address</label></td>
+                        <td><input type="text" id="address" name="address" placeholder="Enter Address" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Telephone No</label></td>
+                        <td><input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Address</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter Email" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nationality">Nationality</label></td>
+                        <td><input type="text" id="nationality" name="nationality" placeholder="Enter Nationality" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="school">School Attended</label></td>
+                        <td><input type="text" id="school" name="school" placeholder="Enter School" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="parent-name">Parent/Guardian Name</label></td>
+                        <td><input type="text" id="parent-name" name="parent-name" placeholder="Enter Parent/Guardian Name" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="parent-phone">Parent/Guardian Telephone No</label></td>
+                        <td><input type="tel" id="parent-phone" name="parent-phone" placeholder="Enter Phone Number" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="parent-email">Parent/Guardian Email</label></td>
+                        <td><input type="email" id="parent-email" name="parent-email" placeholder="Enter Email" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="image">Choose an image to upload:</label></td>
+                        <td><input type="file" id="image" name="image" accept="image/*" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="source">Where did you hear about us?</label></td>
+                        <td>
+                            <input type="checkbox" id="social-media" name="source" value="Social Media"> Social Media<br />
+                            <input type="checkbox" id="family" name="source" value="Family"> Family or Friend<br />
+                            <input type="checkbox" id="newspaper" name="source" value="Newspaper"> Newspaper<br />
+                            <input type="checkbox" id="website" name="source" value="Website"> Website<br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="signature">Signature</label></td>
+                        <td><input type="text" id="signature" name="signature" placeholder="Signature" /></td>
+                    </tr>
+                </table>
+                <br />
+                <div class="div">
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </section>
+
+        <section id="Terms">
+            <h1 class="Condition">Terms & Conditions</h1>
+            <ul type="none">
+                <li class="a">Please provide a recent photograph and a valid copy of Emirates ID or Passport during registration.</li><br />
+                <li class="b">Monthly fees must be paid in advance. Late fees apply for payments made after the first week of the month.</li><br />
+                <li class="c">Pro-rata fees will be charged for the first month, along with fees for subsequent months.</li><br />
+                <li class="d">A one-time registration fee of AED 150 is mandatory for all participants.</li><br />
+                <li class="e">A 25% discount is available for siblings starting from the second child enrolled.</li><br />
+                <li class="f">Missed sessions cannot be rescheduled or refunded, and no make-up sessions are offered.</li><br />
+                <li class="g">Parents/Guardians are responsible for ensuring participants are physically fit for all activities.</li><br />
+                <li class="f">
+                    <pre>By signing this form, participants agree that the organization holds no liability 
+            for any injuries or medical conditions arising from participation in activities.</pre>
+                </li><br />
+            </ul>
+        </section>
+
+    </main>
+</body>
+</html>
